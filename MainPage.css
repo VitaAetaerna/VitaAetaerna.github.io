@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Pretendo;
+    src: url(Pretendo.ttf);
+  }
+
+html { 
+    background: url(./Pictures/Gameboy.png) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.header{ 
+    font-family: Pretendo;
+    font-style: italic;
+    font-size: 50px;
+    font-weight:800;
+    text-shadow: whitesmoke 1px 0 6px;    border:none;
+    background-color: transparent;  
+    position: absolute;
+    left: 575px;    top: 100px;
+    
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: transparent;
+  }
+  
+  .flex-item {
+    font-family: Pretendo;
+    font-weight: 600;
+    font-size: 25px;
+    text-shadow: whitesmoke 1px 0 6px;    border:none;
+
+    background-color: transparent;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    background-color: transparent;  
+    position: absolute;
+    left: 500px;    top: 400px;
+  }
+    
+
+
+.Icons{
+    width: 90px;
+    height: 90px;
+
+    
+}
+
+.AboutMe{
+    font-family: Pretendo;
+    font-size: 25px;
+    font-weight: 600;
+    border:none;
+    background-color: transparent;       
+    position: relative;
+    top: 150px;
+    left: 400px;
+    line-height: 175%;
+    overflow:hidden;
+    text-shadow: whitesmoke 1px 0 6px;    border:none;
+
+    letter-spacing: 1px !important;
+    line-height: 1.7 !important;
+    min-height: 1em !important;
+    box-sizing: border-box !important;
+    word-wrap: normal !important;
+    text-align: justify;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.Blog{
+  font-family: Pretendo;
+  font-size: 25px;
+  font-weight:400;
+  border:none;
+  background-color: transparent;       
+  position: relative;
+  top: 200px;
+  left: 410px;
+  text-shadow: 1px 1px 2px black;
+}
+
